@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <h2>rohitwtbs</h2>
-    <h2>rohutwtbs_again</h2>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <EllipseComponent/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EllipseComponent from './components/ellipse.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EllipseComponent
   }
 }
 </script>
