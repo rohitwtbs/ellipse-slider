@@ -1,6 +1,6 @@
 <template>
 <div>
-    <canvas id="ellipse_component" class="ellipse" >
+    <canvas id="ellipse_component" class="ellipse" width="200" height="200">
     </canvas>
 </div>
 
@@ -39,7 +39,7 @@ export default {
 
 .ellipse {
 
-    width: 200;
-    height: 200;
+    width: 400;
+    height: 400;
 }
 </style>
